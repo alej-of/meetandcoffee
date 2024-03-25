@@ -1,0 +1,90 @@
+nav{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+header{
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*Propiedades agregadas*/
+    font-family: Open sans;
+    text-shadow: 0px 3px 6px black;
+    text-align: right;
+    color: white;
+}
+header h1{
+    font-size: 60px;
+}
+header h3{
+    font-size: 40px;
+    font-weight: lighter;
+}
+#lugar{
+    text-align: center;
+}
+#lugar img{
+    padding: 5px 5px 5px 5px;
+    width: 519px;
+    height: 344px;
+}
+#lugar h3{
+    font-size: 45px;
+    font-weight: bold;
+}
+lugar p{
+    font-size: 25px;
+    width: 796px;
+    height: 77px;
+}
+#proximaCharla{
+    background-color: #a4452c;
+    color: white;
+    padding: 100px;
+}
+#proximaCharla .wrapper{
+    width: 800px;
+    margin: auto;
+}
+.wrapper img{
+    width: 25%;
+}
+.wrapper .texto{
+    width: 70%;
+    margin-left: 4%;
+}
+.wrapper img, .texto{
+    display: inline-block;
+    vertical-align: middle;
+}
+#eventosAnteriores{
+    text-align: center;
+}
+#eventosAnteriores table{
+    width: 100%;
+}
+#eventosAnteriores h2{
+    font-weight: bold;
+    font-size: 45px;
+}
+#eventosAnteriores h5{
+    font-weight: bold;
+    font-size: 35px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer div{
+    width: 100%;
+    color: white;
+}
+i{
+    font-size: 3em;
+    color: white;
+}
